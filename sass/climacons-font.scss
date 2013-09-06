@@ -1,0 +1,90 @@
+@import "settings";
+
+/* font-face */
+@include face;
+
+/* global climacon styles */
+.#{$classIcon}:before {
+	font-family: $fontName;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* icons */
+@include i-class("000", "cloud");
+@include i-class("001", "cloud.sun");
+@include i-class("002", "cloud.moon");
+@include i-class("003", "rain", "rain.cloud");
+@include i-class("004", "rain.sun", "rain.cloud.sun");
+@include i-class("005", "rain.moon", "rain.cloud.moon");
+@include i-class("006", "showers", "showers.cloud");
+@include i-class("007", "showers.sun", "showers.cloud.sun");
+@include i-class("008", "showers.moon", "showers.cloud.moon");
+@include i-class("009", "downpour", "downpour.cloud");
+@include i-class("00a", "downpour.sun", "downpour.cloud.sun");
+@include i-class("00b", "downpour.moon", "downpour.cloud.moon");
+@include i-class("00c", "drizzle", "drizzle.cloud");
+@include i-class("00d", "drizzle.sun", "drizzle.cloud.sun");
+@include i-class("00e", "drizzle.moon", "drizzle.cloud.moon");
+@include i-class("00f", "sleet", "sleet.cloud");
+@include i-class("010", "sleet.sun", "sleet.cloud.sun");
+@include i-class("011", "sleet.moon", "sleet.cloud.moon");
+@include i-class("012", "hail", "hail.cloud");
+@include i-class("013", "hail.sun", "hail.cloud.sun");
+@include i-class("014", "hail.moon", "hail.cloud.moon");
+@include i-class("015", "flurries", "flurries.cloud");
+@include i-class("016", "flurries.sun", "flurries.cloud.sun");
+@include i-class("017", "flurries.moon", "flurries.cloud.moon");
+@include i-class("018", "snow", "snow.cloud");
+@include i-class("019", "snow.sun", "snow.cloud.sun");
+@include i-class("01a", "snow.moon", "snow.cloud.moon");
+@include i-class("01b", "fog", "fog.cloud");
+@include i-class("01c", "fog.sun", "fog.cloud.sun");
+@include i-class("01d", "fog.moon", "fog.cloud.moon");
+@include i-class("01e", "haze");
+@include i-class("01f", "haze.sun");
+@include i-class("020", "haze.moon");
+@include i-class("021", "wind");
+@include i-class("022", "wind.cloud");
+@include i-class("023", "wind.sun", "wind.cloud.sun");
+@include i-class("024", "wind.moon", "wind.cloud.moon");
+@include i-class("025", "lightning", "lightning.cloud");
+@include i-class("026", "lightning.sun", "lightning.cloud.sun");
+@include i-class("027", "lightning.moon", "lightning.cloud.moon");
+@include i-class("028", "sun");
+@include i-class("029", "sun.set", "sunset");
+@include i-class("02a", "sun.rise", "sunrise");
+@include i-class("02b", "sun.low", "sun-low", "low-sun");
+@include i-class("02c", "sun.lower", "sun-lower", "lower-sun");
+@include i-class("02d", "moon");
+@include i-class("02e", "moon.new");
+@include i-class("02f", "moon.waxing.crescent", "moon.first-crescent");
+@include i-class("030", "moon.waxing.quarter", "moon.first-quarter", "moon.waxing.half", "moon.first-half");
+@include i-class("031", "moon.waxing.gibbous", "moon.first-gibbous", "moon.waxing.three-quarter", "moon.first-three-quarter");
+@include i-class("032", "moon.full");
+@include i-class("033", "moon.waning.gibbous", "moon.last-gibbous", "moon.waning.three-quarter", "moon.last-three-quarter");
+@include i-class("034", "moon.waning.quarter", "moon.last-quarter", "moon.waning.half", "moon.last-half");
+@include i-class("035", "moon.waning.crescent", "moon.last-crescent");
+@include i-class("036", "snowflake");
+@include i-class("037", "tornado");
+@include i-class("038", "thermometer.empty", "thermometer");
+@include i-class("039", "thermometer.low");
+@include i-class("03a", "thermometer.medium-low");
+@include i-class("03b", "thermometer.medium-high");
+@include i-class("03c", "thermometer.high");
+@include i-class("03d", "thermometer.full");
+@include i-class("03e", "celcius");
+@include i-class("03f", "farenheit");
+@include i-class("040", "compass");
+@include i-class("041", "compass.north");
+@include i-class("042", "compass.east");
+@include i-class("043", "compass.south");
+@include i-class("044", "compass.west");
+@include i-class("045", "umbrella");
+@include i-class("046", "sunglasses");
+@include i-class("047", "cloud.cycle", "cloud.refresh");
+@include i-class("048", "cloud.down", "cloud.download");
+@include i-class("049", "cloud.up", "cloud.upload");
